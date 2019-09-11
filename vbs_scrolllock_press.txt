@@ -1,0 +1,5 @@
+set wsc = WScript.CreateObject("WScript.Shell")
+Do
+WScript.Sleep (10*1000)
+wsc.SendKeys ("{SCROLLLOCK}")
+Loop
